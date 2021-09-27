@@ -1,0 +1,25 @@
+h1 {
+  font-size: 400%;
+  font-family: "cursive";
+  color: blue;
+  text-align: center;
+  text-shadow: 3px 3px black;
+}
+
+p {
+  font-size: 200%;
+  font-family: "Times New Roman";
+  color: black;
+  text-align: center;
+}
+
+li {
+  font-size: 180%;
+  font-family: "Gill Sans";
+  color: black;
+  line-height: 150%;
+}
+
+body {
+  background-color: lightblue;
+}

@@ -1,0 +1,15 @@
+{% extends 'base.html' %} {% block content %}
+<ul>
+  {% for Team, data in Teams.items %} {% if name == Team%}
+  <h1>{{data.name}}</h1>
+  <br />
+  <p>{{data.description}}</p>
+  <br />
+  <ul>
+    {% for member in data.members %}
+    <li>{{member}}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}{% endfor %}
+</ul>
+{% endblock content %}
